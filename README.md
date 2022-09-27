@@ -9,10 +9,10 @@ file_name = "C://Your_dir//file_name.xls"     # it is necessary to use "xls" fil
 number_of_sheet = 1
 
 3) Setup for dots
-# G_1 = Graph_excel(x_X1, x_Y1,   - start of X array
-#                   x_X2, x_Y2,   - end of X array
-#                   y_X1, y_Y1,   - start of Y array
-#                   y_X2, y_Y2)   - end of Y array
+// G_1 = Graph_excel(x_X1, x_Y1,   - start of X array
+//                   x_X2, x_Y2,   - end of X array
+//                   y_X1, y_Y1,   - start of Y array
+//                   y_X2, y_Y2)   - end of Y array
 G_1 = Graph_excel("Q", 3, "Q", 13, "R", 3, "R", 13)
 G_1.fill_data(sheet.row_values) - setup the data file of your dots
 
